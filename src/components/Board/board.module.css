@@ -1,0 +1,46 @@
+.headerContainer {
+  width: 83vw;
+  padding: 1vw;
+  font-family: poppins;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.titleName {
+  font-family: poppins;
+  font-weight: 600;
+}
+.titleDate {
+  font-weight: 500;
+  background: #707070;
+}
+.titleBoard {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.titleDuration {
+  font-weight: 400;
+  font-size: 1rem;
+  outline: none;
+}
+.scrollContainer {
+  width: 85vw;
+}
+.scroll {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.scroll::-webkit-scrollbar {
+  height: 0.8rem;
+  margin-top: 1px;
+}
+.scroll::-webkit-scrollbar-track {
+  display: none;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #8daab9cc;
+  border-radius: 1rem;
+}

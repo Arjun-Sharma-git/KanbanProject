@@ -1,0 +1,56 @@
+.logOut {
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background: white;
+  height: 12rem;
+  width: 22rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.box:hover {
+  cursor: pointer;
+}
+.message {
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: Noto Sans;
+  font-size: 0.8rem;
+}
+.yes {
+  background: #17a2b8;
+  color: white;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-family: poppins;
+  font-weight: 600;
+}
+.yes:hover {
+  background: #118a9d;
+}
+.cancel {
+  border-color: #cf3636;
+  border-style: solid;
+  color: #cf3636;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  border-width: 1px;
+  font-family: poppins;
+  font-weight: 600;
+  background-color: white;
+}
+.cancel:hover {
+  background: #ebebeb;
+}

@@ -1,0 +1,118 @@
+.card {
+  background-color: #fff;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  position: relative;
+  font-family: poppins;
+}
+.card:hover {
+  cursor: pointer;
+}
+
+.cardheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.bullet {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.priority {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #707070;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.dots {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: large;
+  letter-spacing: 0.22cap;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 3px 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdownContent {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #ddd;
+}
+.cardTitle {
+  padding: 0.5rem 1rem 0rem 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.checkListContainer {
+  padding: 1rem;
+  font-family: Inter;
+}
+.checkListCount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkListCountTitle {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.date {
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+}
+.switchSection {
+  display: flex;
+}
+.sectionBtn {
+  background: #eeecec;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-radius: 8px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem 0.6rem 1rem;
+  font-weight: 500;
+  color: #767575;
+}

@@ -1,0 +1,52 @@
+.section {
+  width: 25vw;
+  height: 78vh;
+  padding: 1vw;
+  background: #eef2f5;
+  margin-left: 1vw;
+  min-width: 25vw;
+  border-radius: 0.5rem;
+}
+.cardScrollContainer {
+  height: 96%;
+  margin-top: 1rem;
+  overflow: auto;
+}
+.cardScroll {
+  display: flex;
+  flex-direction: column;
+}
+.sectionHeader {
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sectionHeader:hover {
+  cursor: pointer;
+}
+.title {
+  font-family: poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  /* text-transform: capitalize; */
+}
+.titleOptions {
+  display: flex;
+  flex-direction: row;
+}
+.add {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.cardScrollContainer::-webkit-scrollbar {
+  width: 0.9rem;
+}
+.cardScrollContainer::-webkit-scrollbar-track {
+  background: #d6eaf4;
+}
+
+.cardScrollContainer::-webkit-scrollbar-thumb {
+  background: #8daab9cc;
+  border-radius: 1rem;
+}

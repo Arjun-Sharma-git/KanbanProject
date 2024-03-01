@@ -1,0 +1,20 @@
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.7rem;
+  margin: 0.5rem 0.5rem;
+  align-items: center;
+  padding: 0.5rem;
+  text-transform: capitalize;
+}
+.checkBoxBoolean {
+  margin-right: 0.5rem;
+}
+.checkBoxTitle {
+  font-family: Inter;
+  font-weight: 400;
+}
+.checkBoxInput {
+  accent-color: #17a2b8;
+}

@@ -1,0 +1,199 @@
+.create {
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 500;
+}
+.box {
+  background: white;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.box:hover {
+  cursor: pointer;
+}
+.required {
+  color: #ff0000;
+}
+.title {
+  margin-bottom: 0.4rem;
+}
+.titleInput {
+  padding: 0.4rem;
+  border: 1px solid #e2e2e2;
+  color: #9b959f;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+.titleInput:focus {
+  outline: none;
+}
+.priority {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.priority label {
+  border: 1px solid #e2e2e2;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.4rem;
+  font-family: Poppins;
+  color: #767575;
+}
+.priority label:hover {
+  background: #eeecec;
+}
+.priority input {
+  margin-right: 0.3rem;
+}
+.bullet {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.checkBox {
+  accent-color: #17a2b8;
+}
+.checkList {
+  max-height: 40%;
+}
+.checkListTitle {
+  font-weight: 400;
+}
+.countDisplay {
+  font-weight: 400;
+}
+
+.scrollContainer {
+  margin-top: 1rem;
+  max-height: 80%;
+  overflow: auto;
+  width: 100%;
+}
+.scroll {
+  display: flex;
+  flex-direction: column;
+}
+.checkList input {
+  border-style: none;
+}
+
+.checkListItem {
+  padding: 0.6rem;
+  margin: 0.5rem;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 0.4rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.checkListInput {
+  width: 95%;
+  height: 100%;
+  font-size: 0.9rem;
+  align-items: center;
+}
+.checkListInput:focus {
+  outline: none;
+}
+.checkBox {
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.3rem;
+}
+.addNew {
+  margin: 1rem;
+
+  font-size: 1rem;
+  font-weight: 500;
+  color: #767575;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  font-family: poppins;
+}
+.dueDateButton {
+  background-color: white;
+  font-size: 0.9rem;
+  padding: 0.6rem 0rem;
+  margin-left: 1rem;
+  color: #707070;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  width: 9rem;
+}
+.dueDateDisplay {
+  background-color: white;
+  font-size: 0.9rem;
+  padding: 0.6rem 0rem;
+  margin-left: 1rem;
+  color: #707070;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  width: 9rem;
+}
+
+.datePickerContainer {
+  position: relative;
+}
+
+.dueDateLabel {
+  position: absolute;
+  bottom: calc(100% + 10px); /* Adjust the value as needed */
+  z-index: 1000; /* Ensure the calendar is above other elements */
+}
+
+.subfooter {
+  display: flex;
+  flex-direction: row;
+}
+
+.cancel {
+  font-size: 0.9rem;
+  padding: 0.6rem 0rem;
+  border: 1px solid #cf3636;
+  border-radius: 0.5rem;
+  width: 9rem;
+  text-align: center;
+  margin-right: 1rem;
+  color: #cf3636;
+}
+.save {
+  font-size: 0.9rem;
+  padding: 0.6rem 0rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  background: #17a2b8;
+  text-align: center;
+  color: white;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  width: 0.9rem;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background: #8daab9cc;
+  border-radius: 1rem;
+}

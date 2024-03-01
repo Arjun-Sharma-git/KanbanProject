@@ -1,0 +1,52 @@
+.settingsPage {
+  width: 81vw;
+  padding: 4vw;
+  padding-top: 2vw;
+  padding-left: 2vw;
+}
+.title {
+  font-family: open sans;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.input {
+  width: 20rem;
+  display: flex;
+  border-style: solid;
+  border-color: #d0d0d0;
+  margin-bottom: 1rem;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 0.4rem;
+}
+.input input {
+  border-style: none;
+  width: 100%;
+  font-style: open sans;
+  color: #828282;
+}
+.input input:focus {
+  outline: none;
+}
+.error {
+  font-size: 1rem;
+  color: #b22b27;
+  padding-bottom: 20px;
+}
+.rightImg {
+  margin-left: auto;
+}
+.update {
+  width: 21rem;
+  font-size: 1.5rem;
+  padding: 0.4rem 2.5rem 0.4rem 2.5rem;
+  border-radius: 1.5rem;
+  color: white;
+  background-color: #17a2b8;
+  border: none;
+  cursor: pointer;
+}
+.update:hover {
+  background-color: #32727a;
+}

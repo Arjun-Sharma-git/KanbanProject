@@ -1,0 +1,53 @@
+.navBar {
+  width: 15vw;
+  background-color: #fff;
+  height: 100vh;
+  border-right-style: inset;
+  border-width: 0.1cap;
+  border-color: #eef2f5;
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleMain {
+  font-weight: 700;
+  margin: 0.5rem;
+}
+.logoMain {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+.logoMain:hover {
+  cursor: pointer;
+}
+.title {
+  margin-left: 0.5rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  color: #707070;
+}
+.logo:hover {
+  background: #4391ed1a;
+  cursor: pointer;
+  color: black;
+}
+.logOutTitle {
+  margin-left: 0.5rem;
+}
+.logOut {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  margin-top: auto;
+  color: #cf3636;
+}
+
+.logOut:hover {
+  cursor: pointer;
+  font-size: 1.05rem;
+}
