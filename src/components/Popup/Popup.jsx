@@ -45,7 +45,7 @@ const Popup = ({ cardData, hidePopup, showPopup }) => {
   const copyToClipboard = async (url) => {
     try {
       await navigator.clipboard.writeText(url);
-      toast.success("Share Link Copied Successfully", {
+      toast.success("Link Copied", {
         autoClose: 1000,
         pauseOnHover: false,
       });
