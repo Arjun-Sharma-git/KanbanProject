@@ -38,7 +38,7 @@ function Edit({ cardData }) {
   };
 
   const handleAddChecklistItem = () => {
-    setChecklistItems([...checklistItems, { title: "", isCompleted: false }]);
+    setChecklistItems([...checklistItems, { title: "", isChecked: false }]);
   };
 
   const handleChecklistItemChange = (index, field, value) => {
@@ -168,7 +168,7 @@ function Edit({ cardData }) {
         <div className={styles.checkList}>
           <span className={styles.checkListTitle}>CheckList</span>
           <span className={styles.countDisplay}>
-            ( {checklistItems.filter((item) => item.isCompleted).length}/
+            ( {checklistItems.filter((item) => item.isChecked).length}/
             {checklistItems.length})
           </span>
           <span className={styles.required}>*</span>
@@ -180,11 +180,11 @@ function Edit({ cardData }) {
                     className={styles.checkBox}
                     type="checkbox"
                     id={`item-${index}`}
-                    checked={item.isCompleted}
+                    checked={item.isChecked}
                     onChange={(e) =>
                       handleChecklistItemChange(
                         index,
-                        "isCompleted",
+                        "isChecked",
                         e.target.checked
                       )
                     }

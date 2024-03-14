@@ -8,7 +8,7 @@ import { useDuration } from "../../Context/DurationContext";
 const Checkbox = ({ item, TaskId, disabled }) => {
   const { updateCheckListCountToggle, fetchAllData } = useData();
   const { duration } = useDuration();
-  const [isChecked, setIsChecked] = useState(item.isCompleted);
+  const [isChecked, setIsChecked] = useState(item.isChecked);
   const handleCheckboxChange = async (event, itemId, TaskId) => {
     if (disabled) {
       return;
