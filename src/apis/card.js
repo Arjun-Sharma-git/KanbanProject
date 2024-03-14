@@ -28,10 +28,10 @@ export const statusChange = async (taskId, status) => {
     return Promise.reject(error);
   }
 };
-export const editCheckList = async (taskId, checkListId, isCompleted) => {
+export const editCheckList = async (taskId, checkListId, isChecked) => {
   try {
     const reqUrl = `${backendUrl}/task/editCheckList`;
-    const reqPayload = { taskId, checkListId, isCompleted };
+    const reqPayload = { taskId, checkListId, isChecked};
     console.log("request payload ", reqPayload);
     const response = await axios.put(reqUrl, reqPayload);
     if (!response.data.success) throw new Error(response.data.data);
